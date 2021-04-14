@@ -1,7 +1,6 @@
-package example.constant;
+package example.constants;
 
-public class Constant {
-
+public class Constants {
     // 类常量，可以在多个方法中使用。声明为 public 则其他类方法也可以使用
     public static final int MAX = 10;
 
@@ -10,7 +9,7 @@ public class Constant {
         final double PI = 3.1415926;
 
         System.out.println(PI);
-        System.out.println(Constant.MAX);
+        System.out.println(Constants.MAX);
         System.out.println(Math.PI);
     }
 }

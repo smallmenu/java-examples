@@ -1,6 +1,6 @@
-package example.type;
+package example.types;
 
-public class Type {
+public class Types {
     public static void main(String[] args) {
         // 基本数据类型
         // 整数类型，均是带符号（允许负值），并且和平台无关
