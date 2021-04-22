@@ -10,7 +10,7 @@ public class Enums {
             System.out.println(size);
         }
 
-        // 枚举的比较直接调用 ==
+        // 枚举的比较直接使用 ==
         EnumSize enum1 = EnumSize.DUET;
         EnumSize enum2 = EnumSize.DUET;
         System.out.println(enum1 == enum2);
